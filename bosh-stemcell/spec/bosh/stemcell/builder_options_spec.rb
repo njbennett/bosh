@@ -133,7 +133,7 @@ module Bosh::Stemcell
       describe 'infrastructure variation' do
         context 'when infrastruture is aws' do
           let(:infrastructure) { Infrastructure.for('aws') }
-          let(:default_disk_size) { 3072 }
+          let(:default_disk_size) { 10240 }
 
           it_sets_correct_environment_variables
 

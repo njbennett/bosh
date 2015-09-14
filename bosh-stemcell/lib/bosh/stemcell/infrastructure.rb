@@ -87,7 +87,7 @@ module Bosh::Stemcell
           name: 'aws',
           hypervisor: 'xen',
           supports_light_stemcell: true,
-          default_disk_size: 3072,
+          default_disk_size: 10240,
           disk_formats: ['raw']
         )
       end
